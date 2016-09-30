@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import firebase from 'firebase';
 import { View } from 'react-native';
+import firebase from 'firebase';
 import { Header } from './components/common';
 import LoginForm from './components/LoginForm';
 
 class App extends Component {
+
   componentWillMount() {
-    firebase.initializeApp({
-    apiKey: 'AIzaSyA_16eSzslbUOBconO7UyoSoeXZCbKYvzI',
-    authDomain: 'reactnativeauthenticatio-33ba9.firebaseapp.com',
-    databaseURL: 'https://reactnativeauthenticatio-33ba9.firebaseio.com',
-    storageBucket: 'reactnativeauthenticatio-33ba9.appspot.com',
-    messagingSenderId: '283407046510',
-  });
-}
+      firebase.initializeApp({
+      apiKey: 'AIzaSyBK__pPVcjpUdJ-qhXMifGsurlEwEozTxE',
+      authDomain: 'auth-df592.firebaseapp.com',
+      databaseURL: 'https://auth-df592.firebaseio.com',
+      storageBucket: 'auth-df592.appspot.com',
+      messagingSenderId: '1018081313001'
+      });
+  }
 
   render() {
     return (
